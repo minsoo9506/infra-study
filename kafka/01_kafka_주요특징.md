@@ -1,5 +1,21 @@
 # Kafka 주요 특징
 
+## 목차
+
+- [Kafka 주요 특징](#kafka-주요-특징)
+  - [1. 분산 스트리밍 플랫폼](#1-분산-스트리밍-플랫폼)
+  - [2. 높은 처리량(High Throughput)](#2-높은-처리량high-throughput)
+  - [3. 내구성(Durability) & 내결함성(Fault Tolerance)](#3-내구성durability--내결함성fault-tolerance)
+  - [4. 확장성(Scalability)](#4-확장성scalability)
+  - [5. Pub/Sub 메시징 모델](#5-pubsub-메시징-모델)
+  - [6. 순서 보장](#6-순서-보장)
+  - [7. Pull 기반 소비](#7-pull-기반-소비)
+  - [8. 풍부한 에코시스템](#8-풍부한-에코시스템)
+- [Kafka 버전업 마다 발생한 주요 변화](#kafka-버전업-마다-발생한-주요-변화)
+  - [Kafka 4.0 - 가장 큰 전환점](#kafka-40---가장-큰-전환점)
+
+---
+
 ## 1. 분산 스트리밍 플랫폼
 Kafka는 대용량 실시간 데이터 스트리밍을 처리하기 위한 분산 이벤트 스트리밍 플랫폼이다.
 
